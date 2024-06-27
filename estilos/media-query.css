@@ -32,4 +32,9 @@
         float: right;
         width: 50%;
     }
+
+    div#formulario > p {
+        font-size: 2em;
+    }
 }
+
