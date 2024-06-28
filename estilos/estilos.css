@@ -28,6 +28,8 @@ body, html {
     overflow: hidden;
 }
 
+/* Pseudo-elemento ::before em #blur: Este pseudo-elemento cobre toda a área do elemento #blur, aplica a imagem de fundo e o efeito de desfoque. */
+
 #blur::after {
     content: "";
     position: absolute;
@@ -64,7 +66,7 @@ section#login {
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 
-    z-index: 1;
+    z-index: 1; /*Colocanddo o conteúdo do Login na frente*/
 
 }
 
